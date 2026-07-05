@@ -19,13 +19,19 @@ console.log(usuariosArray);
 
 // Ejercicio Numero 2
 
-const usuariosObjeto = {
-  usuario1: 'Ana',
-  usuario2: 'Luis',
-  usuario3: 'María'
-};
+const usuariosObjeto = [
+  {
+    usuario1: 'Ana', edad: 25
+  },
+  {
+    usuario2: 'Luis', edad: 30
+  },
+  {
+    usuario3: 'María', edad: 28
+  }
+];
 
-console.log(usuariosObjeto.usuario2); // ¿Qué nombre aparece aquí?
+console.log(usuariosObjeto[1].usuario2); // ¿Qué nombre aparece aquí?
 
 // El nombre que aparece en la consola es nuevamente "Luis",  hacemos el llamado a la propiedad "usuario2" del objeto.
 
