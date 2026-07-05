@@ -40,3 +40,5 @@ console.log(usuariosObjeto.usuario2); // ¿Qué nombre aparece aquí?
 
 // La estructura más adecuada para una lista que puede crecer o cambiar de tamaño es un array, ya que permite agregar o eliminar elementos de manera sencilla.
 
+// Paso 5: ¿Crees que sería igual de sencillo hacer estas operaciones con el objeto? ¿Por qué?
+//no, no seria igual de sencillo que hacer estas operaciones con el objeto, ya que los objetos no tienen metodos asi como los array mas sencillo de agregar o eliminar elementos.
